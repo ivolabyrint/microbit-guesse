@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s5As-8@~@zC7znIYx@*1">Random_Number</variable></variables><block type="pxt-on-start" id="_h2AY_*~3-Z`|j!7er(p" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="PDA)Gxb/gK5?:VNAo1C@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="xX_)8wS-h]kpzt+8E#J/" x="-18" y="382"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="5u|$(tWuo^{}s]BHfY@6"><field name="VAR" id="s5As-8@~@zC7znIYx@*1">Random_Number</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id=":A:-0m:2`|$,FufVZon@"><value name="min"><shadow type="math_number" id="Qvois=:VaVix-ZuT)Q93"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="(bt,`8a?!Zzm}A7gXLcx"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="]*f5?CtyuL,,a#RJr+i)"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j4jogr`hKA0~pUJ;Q;AG"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="$S?ssb^/h}d?-phd*F1e"><field name="VAR" id="s5As-8@~@zC7znIYx@*1">Random_Number</field></block></value><value name="B"><shadow type="math_number" id="k=.R$BZ=6b%mLnqgp!cf"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_print_message" id=":bJV!XMk_jCiG+o;~r]p"><value name="text"><shadow type="text" id="Wd=(AQU)dkx!.T~-*Hno"><field name="TEXT">water</field></shadow></value><next><block type="device_pause" id="]2!D`Wa@MU{v5j~}/%Z,"><value name="pause"><shadow type="timePicker" id="90]:UU}.hibMD]z2;$kT"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="0s;EuEtTXG6J:pS.S)l5"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></next></block></statement><value name="IF1"><block type="logic_compare" id="xf5v2PTQ?pt$/fOdZe3+"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="hMMjdj@c?(DY;,RBkFe^"><field name="VAR" id="s5As-8@~@zC7znIYx@*1">Random_Number</field></block></value><value name="B"><shadow type="math_number" id="/c00L-I$oN1h28GAId%1"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_print_message" id="Jm2D@)pv~D1:O3uln=e}"><value name="text"><shadow type="text" id="yXsWCe#%*G]oEwjI6dZC"><field name="TEXT">subscribe</field></shadow></value><next><block type="device_pause" id="!Z}bMbINyw%@6}+kQ_;/"><value name="pause"><shadow type="timePicker" id="pxxk|ye)$!Fv(n#fBuX?"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="%A;YdFRxV/u{LF4YZ)*t"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="(/k,I.?fahC*%kAn_+dn"><field name="LEDS">`
+        # . . . # 
+        # # . . . 
+        # # # . . 
+        # # # # . 
+        # # # # #
+        `</field><next><block type="device_pause" id="r~}6RD.,X^,YzjwNY+U-"><value name="pause"><shadow type="timePicker" id="}au1TH%l|6!9S_h_RJZ2"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="8[DEz,PsEt_nAVhuR.[R"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block></next></block></statement></block></xml>
